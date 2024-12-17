@@ -1,0 +1,49 @@
+/* 
+Author:samip Regmi(samTime101)
+file:tyles.css
+*/
+table {
+    border-collapse: collapse; 
+}
+
+table, tr, td {
+    border: 1px solid black; 
+}
+
+.col {
+    height: 85px;
+    width: 85px;
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.col:hover {
+    background-color:rgb(221, 239, 255);
+}
+
+body {
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+#turn{
+    font-size: 30px;
+}
+#winner{
+    font-size: 100px;
+    text-align: center;
+    vertical-align: center;
+}
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(221, 239, 255);
+}
